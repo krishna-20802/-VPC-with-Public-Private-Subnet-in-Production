@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px;
+            background-color: #ffcc00;
+            color: white;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .blog {
+            background-color: #ffffff;
+            padding: 50px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact {
+            background-color: #ddd;
+            padding: 50px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+    <div class="hero">
+        <h1>Welcome to the Dog Blog</h1>
+        <p>Everything you need to know about man's best friend</p>
+    </div>
+    
+    <div id="about" class="section">
+        <h2>About Dogs</h2>
+        <p>Dogs are loyal, friendly, and intelligent animals that have been human companions for thousands of years.</p>
+    </div>
+    
+    <div id="blog" class="blog">
+        <h2>The Joy of Having a Dog</h2>
+        <p>Dogs bring immense happiness to their owners. They provide companionship, security, and unconditional love.</p>
+        <h3>Dog Breeds</h3>
+        <p>There are hundreds of dog breeds, each with its unique personality, appearance, and characteristics.</p>
+        <h3>Training and Care</h3>
+        <p>Proper training, a balanced diet, and regular exercise are essential for a dog's well-being.</p>
+        <h3>Health and Wellness</h3>
+        <p>Regular veterinary check-ups and vaccinations help keep dogs healthy and happy.</p>
+    </div>
+    
+    <div id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Dog Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
