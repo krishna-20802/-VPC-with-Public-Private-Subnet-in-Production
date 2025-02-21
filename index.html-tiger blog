@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiger Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .navbar {
+            background-color: #2c3e50;
+            padding: 15px;
+            text-align: center;
+        }
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .hero {
+            text-align: center;
+            padding: 100px;
+            background-color: #34495e;
+            color: white;
+        }
+        .section {
+            padding: 50px;
+            text-align: center;
+        }
+        .blog-posts {
+            background-color: #ffffff;
+            padding: 50px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        .contact {
+            background-color: #bdc3c7;
+            padding: 50px;
+            text-align: center;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+    </div>
+    
+    <div class="hero">
+        <h1>Welcome to Tiger Blog</h1>
+        <p>Exploring the beauty and power of tigers</p>
+    </div>
+    
+    <div id="about" class="section">
+        <h2>About Tigers</h2>
+        <p>Tigers are majestic creatures, known for their strength and beauty. They are the largest cat species and are found in various parts of Asia.</p>
+    </div>
+    
+    <div id="blog" class="blog-posts">
+        <h2>Recent Blog Posts</h2>
+        <h3>The Life of a Bengal Tiger</h3>
+        <p>The Bengal tiger, native to India and Bangladesh, is one of the most well-known tiger subspecies. They are known for their striking orange coat with black stripes.</p>
+        
+        <h3>Conservation Efforts</h3>
+        <p>Due to poaching and habitat destruction, tigers are endangered. Conservation programs worldwide are working to protect these magnificent creatures.</p>
+        
+        <h3>Tiger Facts</h3>
+        <p>Did you know that no two tigers have the same stripe pattern? Tigers also have powerful night vision, making them efficient nocturnal hunters.</p>
+    </div>
+    
+    <div id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+            
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>&copy; 2025 Tiger Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
