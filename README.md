@@ -8,3 +8,4 @@ The following diagram provides an overview of the resources included in this exa
 
 ![image](https://github.com/user-attachments/assets/0a1ba03d-cfc5-4cff-a67c-57daee7f5e5c)
 
+[vpc.pdf](https://github.com/user-attachments/files/18915732/vpc.pdf)
